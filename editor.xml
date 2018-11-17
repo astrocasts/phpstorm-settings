@@ -6,4 +6,7 @@
     <option name="USE_LIGATURES" value="true" />
     <option name="SECONDARY_FONT_FAMILY" value="Fira Mono for Powerline" />
   </component>
+  <component name="EditorSettings">
+    <option name="SHOW_BREADCRUMBS" value="false" />
+  </component>
 </application>
