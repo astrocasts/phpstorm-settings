@@ -8,7 +8,7 @@
       <option name="PHP Comment" value="false" />
     </context>
   </template>
-  <template name="it_" value="&#10;/** @test */&#10;public function it_$NAME$()&#10;{&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="it_" value="&#10;/** @test */&#10;public function it_$NAME$()&#10;{&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
