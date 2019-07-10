@@ -2,4 +2,6 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
+  <action id="Refresh" />
+  <action id="Rerun" />
 </keymap>
