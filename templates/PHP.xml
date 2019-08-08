@@ -19,7 +19,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ich" value="private function __invoke($TYPE$ $command): void {&#10;    $END$&#10;}" description="Invocable command handler" toReformat="true" toShortenFQNames="true">
+  <template name="ich" value="public function __invoke($TYPE$ $command): void {&#10;    $END$&#10;}" description="Invocable command handler" toReformat="true" toShortenFQNames="true">
     <variable name="TYPE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
