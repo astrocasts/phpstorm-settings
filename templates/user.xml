@@ -1,7 +1,7 @@
 <templateSet group="user">
-  <template name="@test" value="/** @test */ &#10;$NAME$&#10;public function $SNAKENAME$()&#10;{&#10;      $END$&#10;}" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="SNAKENAME" expression="snakeCase(NAME)" defaultValue="" alwaysStopAt="true" />
+  <template name="@test" value="/**&#10; * @test&#10; */&#10; public function $METHOD$()&#10; {&#10;    $END$// $TEST$&#10; }" toReformat="true" toShortenFQNames="true">
+    <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="snakeCase(TEST)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
     </context>
