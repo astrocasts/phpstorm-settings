@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="@test" value="/** @test */ &#10;$NAME$&#10;public function $SNAKENAME$()&#10;{&#10;      $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SNAKENAME" expression="snakeCase(String)" defaultValue="NAME" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
