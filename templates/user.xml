@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="@test" value="/**&#10; * @test&#10; */&#10; public function $METHOD$()&#10; {&#10;    $END$// $TEST$&#10; }" toReformat="true" toShortenFQNames="true">
+  <template name="@test" value="/**&#10; * @test&#10; */&#10; public function $METHOD$()&#10; {&#10;    $END$// $TEST$&#10; }" description="" toReformat="true" toShortenFQNames="true">
     <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD" expression="snakeCase(TEST)" defaultValue="" alwaysStopAt="false" />
     <context>
