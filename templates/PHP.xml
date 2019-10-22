@@ -30,9 +30,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ae" value="public function apply$TYPE2$($TYPE$ $event): void {&#10;    $END$&#10;}" description="Apply event" toReformat="true" toShortenFQNames="true">
+  <template name="ae" value="public function apply$TYPE_FOR_METHOD$($TYPE$ $event): void {&#10;    $END$&#10;}" description="Apply event" toReformat="true" toShortenFQNames="true">
     <variable name="TYPE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE2" expression="" defaultValue="$TYPE$" alwaysStopAt="true" />
+    <variable name="TYPE_FOR_METHOD" expression="TYPE" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
