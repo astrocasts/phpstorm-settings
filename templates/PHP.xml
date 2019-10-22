@@ -30,4 +30,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="ae" value="public function apply$TYPE2$($TYPE$ $event): void {&#10;    $END$&#10;}" description="Apply event" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE2" expression="" defaultValue="$TYPE$" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
