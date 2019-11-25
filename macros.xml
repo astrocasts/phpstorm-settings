@@ -1,0 +1,13 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Reset Folding">
+      <action id="CollapseAllRegions" />
+      <action id="ExpandAllRegions" />
+    </macro>
+    <macro name="Reset Folding Except">
+      <action id="CollapseAllRegions" />
+      <action id="ExpandAllRegions" />
+      <action id="ExpandRegion" />
+    </macro>
+  </component>
+</application>

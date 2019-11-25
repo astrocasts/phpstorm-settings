@@ -2,6 +2,12 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
+  <action id="Macro.Reset Folding">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
+  </action>
+  <action id="Macro.Reset Folding Except">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="Refresh" />
   <action id="Rerun" />
 </keymap>
