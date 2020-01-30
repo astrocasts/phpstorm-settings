@@ -45,4 +45,11 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="spget" value="public function $TYPE_FOR_METHOD$(): ?string&#10;{&#10;    return $this-&gt;get(static::$VAR$);&#10;}" description="Serializable Payload Getter" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="phpSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_FOR_METHOD" expression="camelCase(VAR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
 </templateSet>
