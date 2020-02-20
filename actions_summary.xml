@@ -13,8 +13,8 @@
         <entry key="EditorCopy">
           <value>
             <ActionSummary>
-              <option name="last" value="1582218007769" />
-              <option name="times" value="1" />
+              <option name="last" value="1582226258972" />
+              <option name="times" value="3" />
             </ActionSummary>
           </value>
         </entry>
@@ -37,8 +37,16 @@
         <entry key="EditorEnter">
           <value>
             <ActionSummary>
-              <option name="last" value="1582218246473" />
-              <option name="times" value="2" />
+              <option name="last" value="1582226414960" />
+              <option name="times" value="11" />
+            </ActionSummary>
+          </value>
+        </entry>
+        <entry key="EditorPaste">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1582226191363" />
+              <option name="times" value="1" />
             </ActionSummary>
           </value>
         </entry>
@@ -53,8 +61,24 @@
         <entry key="EditorUp">
           <value>
             <ActionSummary>
-              <option name="last" value="1582218250072" />
-              <option name="times" value="2" />
+              <option name="last" value="1582226415905" />
+              <option name="times" value="14" />
+            </ActionSummary>
+          </value>
+        </entry>
+        <entry key="Find">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1582226207617" />
+              <option name="times" value="1" />
+            </ActionSummary>
+          </value>
+        </entry>
+        <entry key="NewScratchFile">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1582226187083" />
+              <option name="times" value="1" />
             </ActionSummary>
           </value>
         </entry>
